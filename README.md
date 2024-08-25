@@ -15,4 +15,16 @@ git config --global user.email "seu_email@example.com"
 git init
 git add . 
 git commit -m "Comentário a ser adicionado"
+git push
+```
+
+## Atualizar o repositório local
+Ao utilizar diferentes locais para trabalho se faz necessário sua atualização sempre que for dar início, pois, pode ser que as alterações realizadas não tenho sido baixadas na máquina local.
+```
+git pull
+```
+
+## Copiar um repositório existente
+```
+git clone <link-repositorio>
 ```
