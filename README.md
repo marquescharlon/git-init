@@ -56,7 +56,6 @@ Windows Registry Editor Version 5.00
 @="Open Git Bash"
 "Icon"="C:\\Program Files\\Git\\git-bash.exe"
 
-
 [HKEY_CLASSES_ROOT\Directory\shell\bash\command]
 @="\"C:\\Program Files\\Git\\git-bash.exe\" \"--cd=%1\""
 
