@@ -76,12 +76,12 @@ Windows Registry Editor Version 5.00
    
 <!-- ![image](https://github.com/user-attachments/assets/e2dbc61c-9377-41fb-a398-009bcd5bc8d2) -->
 
-**6.** Então, a instalação será realizada no registro. Agora, só clicar em `Ok`.
+**5.** Então, a instalação será realizada no registro. Agora, só clicar em `Ok`.
    
 <!-- ![image](https://github.com/user-attachments/assets/7d314577-26bb-44ea-878f-2d315ebb47c6) -->
 ![image](https://github.com/user-attachments/assets/7d314577-26bb-44ea-878f-2d315ebb47c6)
 
-**8.** Para utilizar basta apenas acessar alguma pasta e clicar com o botão direito. Irá notar que irá aparecer a opção `Open Git Bash`. 
+**6.** Para utilizar basta apenas acessar alguma pasta e clicar com o botão direito. Irá notar que irá aparecer a opção `Open Git Bash`. 
 
 <div align="left">
   <img src="https://github.com/user-attachments/assets/d0c36ce4-09f5-4059-a5e7-8a385440f776" width="50%" />
