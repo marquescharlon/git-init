@@ -29,6 +29,17 @@ git pull
 git clone <link-repositorio>
 ```
 
+## Excluir as credenciais
+Isso possibilita excluir as credenciais de outra pessoa para que você possa realizar o acesso com seu login e atribuir o seu usuário e e-mail vinculado ao seus commits.
+
+> Lembra de executar esses comandos principalmente se o computador que você geralmente utiliza é compartilhado com outras pessoas.
+
+```
+cmdkey /delete:LegacyGeneric:target=git:https://github.com
+git config --global --unset-all user.mail
+git config --global --unset-all user.email
+```
+
 # Git Bash no menu de contexto do Windows
 
 **1.** Abra o bloco de notas (notepad) e salva o documento com o nome `OpenGitBash.reg`
