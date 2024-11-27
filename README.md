@@ -46,7 +46,11 @@ Isso possibilita excluir as credenciais de outra pessoa para que você possa rea
 
 ```
 cmdkey /delete:LegacyGeneric:target=git:https://github.com
-git config --global --unset-all user.mail
+```
+```
+git config --global --unset-all user.name
+```
+```
 git config --global --unset-all user.email
 ```
 
