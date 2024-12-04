@@ -7,7 +7,14 @@
 Após a instalação é necessário realizar a sua primeira configuração, neste caso, identificando o nome e o e-mail de quem estará atrelado as alterações.
 ```
 git config --global user.name "Nome Sobrenome"
+```
+```
 git config --global user.email "seu_email@example.com"
+```
+
+> Para aqueles que possui instalado o Git a mais tempo e sua branch padrão é master, basta realizar essa alteração utilizando o comando abaixo:
+```
+git config --global init.defaultBranch main
 ```
 
 ## 3. Init
