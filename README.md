@@ -12,11 +12,6 @@ git config --global user.name "Nome Sobrenome"
 git config --global user.email "seu_email@example.com"
 ```
 
-> Para aqueles que possui instalado o Git a mais tempo e sua branch padrão é master, basta realizar essa alteração utilizando o comando abaixo:
-```
-git config --global init.defaultBranch main
-```
-
 ## 3. Init
 ```
 git init
@@ -27,10 +22,19 @@ git push
 
 ## 4. Branch
 Você pode iniciar o repositório com uma branch padrão:
-`git init --initial-branch=main` ou `git init -b main`
 
-Se você preferir, pode configurar a branch padrão:
-`git config --global init.defaultBranch main`
+```
+git init --initial-branch=main
+```
+ou 
+```
+git init -b main
+```
+
+> Para aqueles que possui instalado o Git a mais tempo e sua branch padrão é master, basta realizar essa alteração utilizando o comando abaixo:
+```
+git config --global init.defaultBranch main
+```
 
 
 ## 5. Atualizar o repositório local
