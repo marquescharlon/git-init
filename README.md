@@ -25,27 +25,35 @@ git commit -m "Comentário a ser adicionado"
 git push
 ```
 
-## 4. Atualizar o repositório local
+## 4. Branch
+Você pode iniciar o repositório com uma branch padrão:
+`git init --initial-branch=main` ou `git init -b main`
+
+Se você preferir, pode configurar a branch padrão:
+`git config --global init.defaultBranch main`
+
+
+## 5. Atualizar o repositório local
 Ao utilizar diferentes locais para trabalho se faz necessário sua atualização sempre que for dar início, pois, pode ser que as alterações realizadas não tenho sido baixadas na máquina local.
 ```
 git pull
 ```
 
-## 5. Copiar um repositório existente
+## 6. Copiar um repositório existente
 ```
 git clone <link-repositorio>
 ```
 
-## 6. Excluir as credenciais
+## 7. Excluir as credenciais
 Você pode excluir as credenciais usando uma das opções abaixo.
 
-### 6.1 Credenciais do Windows
+### 7.1 Credenciais do Windows
 
 ![image](https://github.com/user-attachments/assets/6ce5396a-5545-44d5-ad9b-2654a6e3447e)
 
 ![image](https://github.com/user-attachments/assets/16660faf-4b3e-4acd-8b42-46e1203d46e4)
 
-### 6.2 Pelo Prompt de Comando (CMD) ou PowerShell
+### 7.2 Pelo Prompt de Comando (CMD) ou PowerShell
 
 Isso possibilita excluir as credenciais de outra pessoa para que você possa realizar o acesso com seu login e atribuir o seu usuário e e-mail vinculado ao seus commits.
 
@@ -61,13 +69,13 @@ git config --global --unset-all user.name
 git config --global --unset-all user.email
 ```
 
-## 7. Git Bash no menu de contexto do Windows
+## 8. Git Bash no menu de contexto do Windows
 
-**7.1** Abra o bloco de notas (notepad) e salva o documento com o nome `OpenGitBash.reg`
+**8.1** Abra o bloco de notas (notepad) e salva o documento com o nome `OpenGitBash.reg`
 
 ![image](https://github.com/user-attachments/assets/9c6e9b17-cd6e-44b9-9050-ae3f5e7fb520)
 
-**7.2** Copia e cola o conteúdo abaixo para dentro do **bloco de notas**
+**8.2** Copia e cola o conteúdo abaixo para dentro do **bloco de notas**
 
 ```
 Windows Registry Editor Version 5.00
@@ -102,18 +110,18 @@ Windows Registry Editor Version 5.00
 @="\"C:\\Program Files\\Git\\git-bash.exe\" \"--cd=%v.\""
 ```
 
-**7.3** Execute o arquivo clicando duas vezes
+**8.3** Execute o arquivo clicando duas vezes
 
-**7.4** Irá pedir que autorize no modo administrador, clique em `Sim`
+**8.4** Irá pedir que autorize no modo administrador, clique em `Sim`
    
 <!-- ![image](https://github.com/user-attachments/assets/e2dbc61c-9377-41fb-a398-009bcd5bc8d2) -->
 
-**7.5** Então, a instalação será realizada no registro. Agora, só clicar em `Ok`.
+**8.5** Então, a instalação será realizada no registro. Agora, só clicar em `Ok`.
    
 <!-- ![image](https://github.com/user-attachments/assets/7d314577-26bb-44ea-878f-2d315ebb47c6) -->
 ![image](https://github.com/user-attachments/assets/7d314577-26bb-44ea-878f-2d315ebb47c6)
 
-**7.6** Para utilizar basta apenas acessar alguma pasta e clicar com o botão direito. Irá notar que irá aparecer a opção `Open Git Bash`. 
+**8.6** Para utilizar basta apenas acessar alguma pasta e clicar com o botão direito. Irá notar que irá aparecer a opção `Open Git Bash`. 
 
 <div align="left">
   <img src="https://github.com/user-attachments/assets/d0c36ce4-09f5-4059-a5e7-8a385440f776" width="50%" />
