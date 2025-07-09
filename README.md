@@ -10,7 +10,7 @@ Este repositório contém instruções essenciais para configurar e utilizar o G
 ## 📦 Índice
 
 - [Instalação](#-instalação)
-- [Configuração Inicial](#-configuração-inicial)
+- [Configuração Inicial](#-Configuração-Inicial)
 - [Inicializando um Repositório](#-🚀-inicializando-um-repositório)
 - [Gerenciamento de Branches](#-🌿-gerenciamento-de-branches)
 - [Atualizando o Repositório Local](#-🔄-atualizando-o-repositório-local)
@@ -23,7 +23,7 @@ Este repositório contém instruções essenciais para configurar e utilizar o G
 
 - Baixe e instale o [Git for Windows](https://gitforwindows.org/).
 
-## Configuração Inicial
+## ⚙️ Configuração Inicial
 
 Após a instalação, configure seu nome e e-mail:
 
