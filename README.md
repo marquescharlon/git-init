@@ -1,4 +1,4 @@
-# Guia de Configuração Básica do Git
+# Guia de Configuração do Git
 
 [![Python](https://img.shields.io/badge/git-2.50%2B-blue)](https://www.python.org/)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
