@@ -3,8 +3,6 @@
 ## 1. Instalação
 - [GitForWindows](https://gitforwindows.org/)
 
-TESTE
-
 ## 2. Config
 Após a instalação é necessário realizar a sua primeira configuração, neste caso, identificando o nome e o e-mail de quem estará atrelado as alterações.
 ```
@@ -59,6 +57,15 @@ Você pode excluir as credenciais usando uma das opções abaixo.
 
 ![image](https://github.com/user-attachments/assets/16660faf-4b3e-4acd-8b42-46e1203d46e4)
 
+> [!WARNING]
+> Se não estiver conseguindo acessar as credenciais por causa da política de segurança você pode executar o procedimento abaixo: <br>
+> 1. Abrir o Executar ```(Win+R)```
+> 2. Digitar os comandos ```rundll32.exe keymgr.dll,KRShowKeyMgr```
+> 3. Clicar em ```Ok```
+
+![Executar](https://github.com/user-attachments/assets/03d6f38d-62ba-41ec-8ba0-9f830b2d87c4)
+
+
 ### 7.2 Pelo Prompt de Comando (CMD) ou PowerShell
 
 Isso possibilita excluir as credenciais de outra pessoa para que você possa realizar o acesso com seu login e atribuir o seu usuário e e-mail vinculado ao seus commits.
@@ -75,6 +82,7 @@ git config --global --unset-all user.name
 git config --global --unset-all user.email
 ```
 
+<!--
 ## 8. Git Bash no menu de contexto do Windows
 
 **8.1** Abra o bloco de notas (notepad) e salva o documento com o nome `OpenGitBash.reg`
@@ -122,12 +130,12 @@ Windows Registry Editor Version 5.00
    
 <!-- ![image](https://github.com/user-attachments/assets/e2dbc61c-9377-41fb-a398-009bcd5bc8d2) -->
 
-**8.5** Então, a instalação será realizada no registro. Agora, só clicar em `Ok`.
+<!-- **8.5** Então, a instalação será realizada no registro. Agora, só clicar em `Ok`. -->
    
 <!-- ![image](https://github.com/user-attachments/assets/7d314577-26bb-44ea-878f-2d315ebb47c6) -->
-![image](https://github.com/user-attachments/assets/7d314577-26bb-44ea-878f-2d315ebb47c6)
+<!-- ![image](https://github.com/user-attachments/assets/7d314577-26bb-44ea-878f-2d315ebb47c6) -->
 
-**8.6** Para utilizar basta apenas acessar alguma pasta e clicar com o botão direito. Irá notar que irá aparecer a opção `Open Git Bash`. 
+<!-- **8.6** Para utilizar basta apenas acessar alguma pasta e clicar com o botão direito. Irá notar que irá aparecer a opção `Open Git Bash`. -->
 
 <div align="left">
   <img src="https://github.com/user-attachments/assets/d0c36ce4-09f5-4059-a5e7-8a385440f776" width="50%" />
