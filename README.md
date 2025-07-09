@@ -9,8 +9,8 @@ Este repositório contém instruções essenciais para configurar e utilizar o G
 
 ## 📦 Índice
 
-- [Instalação](#-💻-instalação)
-- [Configuração Inicial](#-⚙️-configuração-inicial)
+- [Instalação](#-instalação)
+- [Configuração Inicial](#-⚙-configuração-inicial)
 - [Inicializando um Repositório](#-🚀-inicializando-um-repositório)
 - [Gerenciamento de Branches](#-🌿-gerenciamento-de-branches)
 - [Atualizando o Repositório Local](#-🔄-atualizando-o-repositório-local)
