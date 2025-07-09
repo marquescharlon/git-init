@@ -12,11 +12,11 @@ Este repositório contém instruções essenciais para configurar e utilizar o G
 - [Instalação](#-instalação)
 - [Configuração Inicial](#configuração-inicial)
 - [Inicializando um Repositório](#inicializando-um-repositório)
-- [Gerenciamento de Branches](#-🌿-gerenciamento-de-branches)
-- [Atualizando o Repositório Local](#-🔄-atualizando-o-repositório-local)
-- [Clonando Repositórios](#-📥-clonando-repositórios)
-- [Gerenciamento de Credenciais](#-🔐-gerenciamento-de-credenciais)
-- [Automatizando Limpeza de Configurações](#-🤖-automatizando-limpeza-de-configurações)
+- [Gerenciamento de Branches](#-gerenciamento-de-branches)
+- [Atualizando o Repositório Local](#-atualizando-o-repositório-local)
+- [Clonando Repositórios](#-clonando-repositórios)
+- [Gerenciamento de Credenciais](#-gerenciamento-de-credenciais)
+- [Automatizando Limpeza de Configurações](#-automatizando-limpeza-de-configurações)
 - [Autor](#autor)
 
 ## 💻 Instalação
@@ -41,7 +41,7 @@ git commit -m "Comentário inicial"
 git push
 ```
 
-## 🌿 Gerenciamento de Branches
+## Gerenciamento de Branches
 
 Crie o repositório já com a branch `main`:
 
@@ -57,7 +57,7 @@ Altere a branch padrão para `main`:
 git config --global init.defaultBranch main
 ```
 
-## 🔄 Atualizando o Repositório Local
+## Atualizando o Repositório Local
 
 Mantenha seu repositório atualizado:
 
@@ -65,13 +65,13 @@ Mantenha seu repositório atualizado:
 git pull
 ```
 
-## 📥 Clonando Repositórios
+## Clonando Repositórios
 
 ```sh
 git clone <link-do-repositorio.git>
 ```
 
-## 🔐 Gerenciamento de Credenciais
+## Gerenciamento de Credenciais
 
 ### 1. Pelo Gerenciador de Credenciais do Windows
 
@@ -95,7 +95,7 @@ git config --global --unset-all user.name
 git config --global --unset-all user.email
 ```
 
-## 🤖 Automatizando Limpeza de Configurações
+## Automatizando Limpeza de Configurações
 
 Utilize o script [`limpar_git_config.bat`](limpar_git_config.bat) para automatizar a remoção de configurações e credenciais do Git.
 
