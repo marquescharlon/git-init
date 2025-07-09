@@ -1,4 +1,4 @@
-# 🛠️ Guia de Configuração Básica do Git
+# Guia de Configuração Básica do Git
 
 [![Python](https://img.shields.io/badge/git-2.50%2B-blue)](https://www.python.org/)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
@@ -19,7 +19,7 @@ Este repositório contém instruções essenciais para configurar e utilizar o G
 - [Automatizando Limpeza de Configurações](#automatizando-limpeza-de-configurações)
 - [Autor](#autor)
 
-## 💻 Instalação
+## Instalação
 
 - Baixe e instale o [Git for Windows](https://gitforwindows.org/).
 
