@@ -9,7 +9,7 @@ Este repositório contém instruções essenciais para configurar e utilizar o G
 
 ## 📦 Índice
 
-- [Instalação](#instalação)
+- [Instalação](#-instalação)
 - [Configuração Inicial](#configuração-inicial)
 - [Inicializando um Repositório](#inicializando-um-repositório)
 - [Gerenciamento de Branches](#gerenciamento-de-branches)
@@ -17,6 +17,7 @@ Este repositório contém instruções essenciais para configurar e utilizar o G
 - [Clonando Repositórios](#clonando-repositórios)
 - [Gerenciamento de Credenciais](#gerenciamento-de-credenciais)
 - [Automatizando Limpeza de Configurações](#automatizando-limpeza-de-configurações)
+- [Autor](#autor)
 
 ## 💻 Instalação
 
@@ -108,5 +109,3 @@ Marquescharlon Santos
 
 ---
 > _Mantenha suas configurações do Git organizadas e seguras!_
-
-
