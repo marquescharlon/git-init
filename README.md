@@ -23,7 +23,7 @@ Este repositório contém instruções essenciais para configurar e utilizar o G
 
 - Baixe e instale o [Git for Windows](https://gitforwindows.org/).
 
-## ⚙️ Configuração Inicial
+## Configuração Inicial
 
 Após a instalação, configure seu nome e e-mail:
 
